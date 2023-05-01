@@ -259,6 +259,43 @@ td {
     margin: 3em auto;
 }
 
+@media screen and (max-width: 1200px) {
+    .productos {
+        width: auto;
+        padding: 6em;
+    }
+    .productos li {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    form label,
+    form legend {
+        width: 85%;
+    }
+
+    .input-padron,
+    .enviar {
+        width: 80%;
+    }
+    select {
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 44%;
+    }
+
+    .caja,
+    .principal,
+    .mapa-contenido,
+    .contenido-diferenciales,
+    .lista-diferenciales,
+    .video {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
 @media screen and (max-width: 480px) {
     h1 {
         text-align: center;
@@ -270,7 +307,6 @@ td {
         font-size: 19px;
     }
     .productos {
-        width: auto;
         padding: 1em;
     }
     .productos li {
@@ -309,42 +345,5 @@ td {
     .lista-diferenciale,
     .imagen-diferenciales {
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .productos {
-        width: auto;
-        padding: 6em;
-    }
-    .productos li {
-        display: block;
-        width: 90%;
-        margin: 10px auto;
-    }
-
-    form label,
-    form legend {
-        width: 85%;
-    }
-
-    .input-padron,
-    .enviar {
-        width: 80%;
-    }
-    select {
-        width: 30%;
-        margin-left: 10%;
-        margin-right: 44%;
-    }
-
-    .caja,
-    .principal,
-    .mapa-contenido,
-    .contenido-diferenciales,
-    .lista-diferenciales,
-    .video {
-        width: 90%;
-        margin: 20px auto;
     }
 }
